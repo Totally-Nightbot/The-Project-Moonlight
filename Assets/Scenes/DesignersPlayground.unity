@@ -25239,10 +25239,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 538436699379151546, guid: a4d79ee8cf7c4c641800a1bbe1de6f20, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 62796868ec80abd4cacff3abb03a4617, type: 2}
     - target: {fileID: 919132149155446097, guid: a4d79ee8cf7c4c641800a1bbe1de6f20, type: 3}
       propertyPath: m_Name
       value: LittleLight
       objectReference: {fileID: 0}
+    - target: {fileID: 7841506856823223359, guid: a4d79ee8cf7c4c641800a1bbe1de6f20, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 62796868ec80abd4cacff3abb03a4617, type: 2}
+    - target: {fileID: 7875636626320043654, guid: a4d79ee8cf7c4c641800a1bbe1de6f20, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 62796868ec80abd4cacff3abb03a4617, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4d79ee8cf7c4c641800a1bbe1de6f20, type: 3}
 --- !u!1 &1794411925
