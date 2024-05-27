@@ -2,13 +2,22 @@
     "name": "Interact",
     "maps": [
         {
-            "name": "Interact",
+            "name": "Player",
             "id": "ece68fd2-742f-49b1-b4a3-e4e22292c693",
             "actions": [
                 {
                     "name": "Interact",
                     "type": "Button",
                     "id": "0b478609-fa32-4977-ad10-210005bf6da0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "1ccd9aab-a6a4-4033-b9d0-1262dddd18d2",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -35,6 +44,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7bab04af-7765-49c6-bc0e-abe6f2a50451",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
